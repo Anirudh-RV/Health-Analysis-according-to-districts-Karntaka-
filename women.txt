@@ -1,0 +1,442 @@
+REC91                  Country specific variables
+SDISTRI                District
+SSLUMC                 Slum designation by sample frame
+SSLUMO                 Slum designation by observation
+SSMOD                  Selected for 'State' module; i.e. HIV Knowledge
+SD005                  State Weight for Domestic Violence (6 decimals)
+SCONSENT               Consent agreement
+SLANGQ                 Language of questionnaire
+SLANGRM                Respondent's mother tongue
+SLANGI                 Language of the interview
+STRANSL                Translator used
+S113                   Usually go to a cinema hall or theatre to see a
+S116                   Belong to a scheduled caste, a scheduled tribe,
+S234                   Pregnancy end in miscarriage, abortion, or stillbirth
+S236                   Ultrasound at any time
+S238                   Place last termination performed
+S239                   Person performed abortion
+S240                   Complication from abortion
+S241                   Sought treatment for the complication
+S242                   Place when for treatment
+S243A                  Reason did not seek treatment: Could Not Afford
+S243B                  Reason did not seek treatment: Could Not Afford
+S243C                  Reason did not seek treatment: Fear of Stigma B
+S243D                  Reason did not seek treatment: Fear of Stigma B
+S243E                  Reason did not seek treatment: Complication Was
+S243F                  Reason did not seek treatment: Problem Resolved
+S243G                  Reason did not seek treatment: Could Not Get Aw
+S243H                  Reason did not seek treatment: Husband Did Not
+S243X                  Reason did not seek treatment: other
+S250                   Had your uterus removed
+S251                   Years ago hysterectomy performed
+S252                   Place hysterectomy performed
+S253A                  Reason hysterectomy performed: Excessive Menstruation
+S253B                  Reason hysterectomy performed: Fibroids/Cysts
+S253C                  Reason hysterectomy performed: Uterine Disorder
+S253D                  Reason hysterectomy performed: Cancer
+S253E                  Reason hysterectomy performed: Uterine Prolapse
+S253F                  Reason hysterectomy performed: Severe Post-Part
+S253X                  Reason hysterectomy performed: other
+S256                   Age at first monthly period
+S257A                  Protection to prevent bloodstains: Cloth
+S257B                  Protection to prevent bloodstains: Locally prep
+S257C                  Protection to prevent bloodstains: Sanitary nap
+S257D                  Protection to prevent bloodstains: Tampons
+S257E                  Protection to prevent bloodstains: Nothing
+S257X                  Protection to prevent bloodstains: other
+S301                   Currently in union
+S303                   Time period not living with husband
+S308M                  Month (first) got married
+S308Y                  Year (first) got married
+S308C                  CMC (first) got married
+S309                   Age (first) married
+S310                   Related to current husband prior to marriage in
+S311                   Type of relationship to current husband, prior
+S314C                  Age at first union (calculated)
+S315                   Ever had sexual intercourse
+S321A                  Have used: Female sterilization
+S321B                  Have used: Male sterilization
+S321C                  Have used: IUD/PPIUD
+S321D                  Have used: Injectables
+S321E                  Have used: Pill
+S321F                  Have used: Condom/nirodh
+S321G                  Have used: Female condom
+S321H                  Have used: Emergency contraception
+S321I                  Have used: Diaphragm
+S321J                  Have used: Foam/jelly
+S321K                  Have used: Standard Days Method
+S321L                  Have used: Lactational Amenorrhoea Method (LAM)
+S321M                  Have used: Rhythm Method
+S321N                  Have used: Withdrawal
+S321X                  Have used: other modern method
+S321Y                  Have used: other traditional method
+S323                   Times used emergency contraception in last 12 m
+S324A                  Place acquired emergency contraception: Public:
+S324B                  Place acquired emergency contraception: Public:
+S324C                  Place acquired emergency contraception: Public:
+S324D                  Place acquired emergency contraception: Public:
+S324E                  Place acquired emergency contraception: Public:
+S324F                  Place acquired emergency contraception: Public:
+S324G                  Place acquired emergency contraception: Public:
+S324H                  Place acquired emergency contraception: Public:
+S324I                  Place acquired emergency contraception: Public:
+S324J                  Place acquired emergency contraception: Public:
+S324K                  Place acquired emergency contraception: Public:
+S324L                  Place acquired emergency contraception: Other P
+S324M                  Place acquired emergency contraception: NGO or
+S324N                  Place acquired emergency contraception: Private
+S324O                  Place acquired emergency contraception: Private
+S324P                  Place acquired emergency contraception: Private
+S324Q                  Place acquired emergency contraception: Private
+S324R                  Place acquired emergency contraception: Private
+S324S                  Place acquired emergency contraception: Private
+S324T                  Place acquired emergency contraception: Private
+S324U                  Place acquired emergency contraception: Other P
+S324V                  Place acquired emergency contraception: Shop
+S324W                  Place acquired emergency contraception: Friend/
+S324X                  Place acquired emergency contraception: other
+S326                   Number of living children when first started us
+S329                   Currently using any method
+S334                   Rate care received during and immediately after
+S335                   Total paid for the sterilization, including any
+S336                   Receive compensation for sterilization
+S337                   Amount of compensation received for sterilization
+S338                   Regret sterilization
+S351                   Told by a health worker about any methods of fa
+S353W                  Source of FP for non-users: Shop
+S353X                  Source of FP for non-users: Friend/Relative (se
+S354                   Met with an ANM or LHV in last 3 months
+S355A                  Times met with ANM or LHV at home in last 3 month
+S355B                  Times met with ANM or LHV at anganwadi center
+S355C                  Times met with ANM or LHV at health facility or
+S355D                  Times met with ANM or LHV elsewhere in last 3 m
+S356                   Met with an anganwadi worker, ASHA or other com
+S357A                  Person met: Anganwadi worker
+S357B                  Person met: ASHA
+S357C                  Person met: MPW
+S357X                  Person met: other
+S358A                  Times met this person at home in last 3 months
+S358B                  Times met this person at anganwadi center
+S358C                  Times met this person at health facility or camp
+S358D                  Times met this person elsewhere in last 3 month
+S360A                  Services/matters talked about in last 3 months:
+S360B                  Services/matters talked about in last 3 months:
+S360C                  Services/matters talked about in last 3 months:
+S360D                  Services/matters talked about in last 3 months:
+S360E                  Services/matters talked about in last 3 months:
+S360F                  Services/matters talked about in last 3 months:
+S360G                  Services/matters talked about in last 3 months:
+S360H                  Services/matters talked about in last 3 months:
+S360I                  Services/matters talked about in last 3 months:
+S360J                  Services/matters talked about in last 3 months:
+S360K                  Services/matters talked about in last 3 months:
+S360L                  Services/matters talked about in last 3 months:
+S360M                  Services/matters talked about in last 3 months:
+S360N                  Services/matters talked about in last 3 months:
+S360O                  Services/matters talked about in last 3 months:
+S360P                  Services/matters talked about in last 3 months:
+S360Q                  Services/matters talked about in last 3 months:
+S360R                  Services/matters talked about in last 3 months:
+S360S                  Services/matters talked about in last 3 months:
+S360X                  Services/matters talked about in last 3 months:
+S361                   Person met during most recent contact
+S363                   Visited a health facility or camp for self or c
+S364                   Type of health facility or camp visited
+S365A                  Service went for: Family Planning
+S365B                  Service went for: Immunization
+S365C                  Service went for: Antenatal Care
+S365D                  Service went for: Delivery Care
+S365E                  Service went for: Postnatal Care
+S365F                  Service went for: Disease Prevention
+S365G                  Service went for: Medical Treatment For Self
+S365H                  Service went for: Treatment For Child
+S365I                  Service went for: Treatment For Other Person
+S365J                  Service went for: Growth Monitoring Of Child
+S365K                  Service went for: Health Check-Up
+S365L                  Service went for: Medical Termination Of Pregnancy
+S365X                  Service went for: other
+S616D                  Seen family planning message on a wall painting
+S704                   Ever had a blood transfusion
+S707                   Currently smoke bidis
+S708                   Bidis smoked in last 24 hours
+S710C                  Type of tobacco used: Hookah
+S710E                  Type of tobacco used: Khaini
+S712                   Tried to stop smoking or using tobacco in last
+S713                   Visited a doctor or other health care provider
+S714                   During visit with health provider, respondent a
+S715                   Someone smoked in respondent's home or presence
+S716                   Drinks alcohol
+S717                   Frequency drinks alcohol
+S718A                  Type of alcohol usually consumed: Tadi madi
+S718B                  Type of alcohol usually consumed: country liquor
+S718C                  Type of alcohol usually consumed: beer
+S718D                  Type of alcohol usually consumed: wine
+S718E                  Type of alcohol usually consumed: hard liquor
+S718X                  Type of alcohol usually consumed: other
+S723A                  Currently has diabetes
+S723AB                 Has sought treatment for diabetes
+S723B                  Currently has asthma
+S723BB                 Has sought treatment for asthma
+S723C                  Currently has thyroid disorder
+S723CB                 Has sought treatment for thyroid disorder
+S723D                  Currently has heart disease
+S723DB                 Has sought treatment for heart disease
+S723E                  Currently has cancer
+S723EB                 Has sought treatment for cancer
+S726A                  Frequency takes milk or curd
+S726B                  Frequency eats pulses or beans
+S726C                  Frequency eats dark green leafy vegetable
+S726D                  Frequency eats fruits
+S726E                  Frequency eats eggs
+S726F                  Frequency eats fish
+S726G                  Frequency eats chicken or meat
+S726H                  Frequency eats fried food
+S726I                  Frequency takes aerated drinks
+S727A                  Ever had cervix examination
+S727B                  Ever had breast examination
+S727C                  Ever had oral cavity examination
+S821W                  Source for condoms: Ration shop
+S821X                  Source for condoms: other shop
+S821Y                  Source for condoms: Vending machine
+S907                   Husband been away from home month or more month
+S908                   Husband has been away from home for six or more
+S918                   Has been away from home, other than parent/in-l
+S927                   Has money that respondent alone can decide how
+S928A                  Usually allowed to go to the market
+S928B                  Usually allowed to go to the health facility
+S928C                  Usually allowed to go to places outside
+S929                   Has bank or savings account that respondent use
+S930                   Has mobile phone that respondent uses
+S930C                  Able to read text messages
+S933                   Knows programme in this area that give loans to
+S934                   Ever taken a loan, cash or in kind, from these
+S936F                  Justifies domestic violence: Wife unfaithful
+S936G                  Justifies domestic violence: Wife disrespect
+S1001                  Ever heard of AIDS
+S1002                  Ever heard of HIV
+S1004A                 Source of information about AIDS: Radio
+S1004B                 Source of information about AIDS: Television
+S1004C                 Source of information about AIDS: Cinema
+S1004D                 Source of information about AIDS: Newspapers/ma
+S1004E                 Source of information about AIDS: Posters/hoard
+S1004F                 Source of information about AIDS: Exhibition/me
+S1004G                 Source of information about AIDS: Health worker
+S1004H                 Source of information about AIDS: Adult education
+S1004I                 Source of information about AIDS: Religious lea
+S1004J                 Source of information about AIDS: Political lea
+S1004K                 Source of information about AIDS: School/teacher
+S1004L                 Source of information about AIDS: Community meeting
+S1004M                 Source of information about AIDS: Husband
+S1004N                 Source of information about AIDS: Friends/relatives
+S1004O                 Source of information about AIDS: Work place
+S1004X                 Source of information about AIDS: other
+S1008                  People can get HIV/AIDS from blood products or
+S1009                  People can get HIV/AIDS by injecting drugs
+S1011                  Anything else a person can do to avoid or reduce
+S1012A                 Ways to avoid HIV/AIDS: Abstain from sex
+S1012B                 Ways to avoid HIV/AIDS: Use condoms
+S1012C                 Ways to avoid HIV/AIDS: Limit sex to one partner
+S1012D                 Ways to avoid HIV/AIDS: Limit number of sexual
+S1012E                 Ways to avoid HIV/AIDS: Avoid sex with sex work
+S1012F                 Ways to avoid HIV/AIDS: Avoid sex with persons
+S1012G                 Ways to avoid HIV/AIDS: Avoid sex with homosexual
+S1012H                 Ways to avoid HIV/AIDS: Avoid sex with persons
+S1012I                 Ways to avoid HIV/AIDS: Avoid blood transfusion
+S1012J                 Ways to avoid HIV/AIDS: Use blood only from relatives
+S1012K                 Ways to avoid HIV/AIDS: Avoid injections
+S1012L                 Ways to avoid HIV/AIDS: Use only new/sterilized
+S1012M                 Ways to avoid HIV/AIDS: Avoid IV drip
+S1012N                 Ways to avoid HIV/AIDS: Avoid sharing razors/blades
+S1012O                 Ways to avoid HIV/AIDS: Avoid kissing
+S1012P                 Ways to avoid HIV/AIDS: Avoid mosquito bites
+S1012WX                Ways to avoid HIV/AIDS: other
+S1012Z                 Ways to avoid HIV/AIDS: Don't know
+S1040                  A child with HIV should be allowed to attend school
+S1044                  A male teacher with HIV/AIDS who is not sick
+S1045                  People with HIV be treated in the same public h
+S1046                  People with HIV be allowed to work in the same
+S1136A                 Place went for medical help: Public: Govt./Municipal
+S1136B                 Place went for medical help: Public: AYUSH
+S1136C                 Place went for medical help: Public: Govt. Dispensary
+S1136D                 Place went for medical help: Public: UHC/UHP/UF
+S1136E                 Place went for medical help: Public: CHC/Rural
+S1136F                 Place went for medical help: Public: PHC/Additional PHC
+S1136G                 Place went for medical help: Public: Sub-Centre
+S1136H                 Place went for medical help: Public: Govt. Mobile
+S1136I                 Place went for medical help: Public: Camp
+S1136J                 Place went for medical help: Public: Anganwadi/ICDS
+S1136K                 Place went for medical help: Public: ASHA
+S1136L                 Place went for medical help: Public: Other worker
+S1136M                 Place went for medical help: Other Public Health
+S1136N                 Place went for medical help: NGO or Trust Hospital
+S1136O                 Place went for medical help: Private: Hospital
+S1136P                 Place went for medical help: Private: Doctor/Cl
+S1136Q                 Place went for medical help: Private: Mobile Cl
+S1136R                 Place went for medical help: Private: Vaidya/Ha
+S1136S                 Place went for medical help: Private: Tradition
+S1136T                 Place went for medical help: Private: Pharmacy/
+S1136U                 Place went for medical help: Private: DAI (TBA)
+S1136V                 Place went for medical help: Other Private Heal
+S1136X                 Place went for medical help: other
+SBSEL                  Biomarker Unit selection
+SB12A                  30 minutes prior to BP measure: eaten
+SB12B                  30 minutes prior to BP measure: had coffee, tea
+SB12C                  30 minutes prior to BP measure: smoked any tobacco
+SB12D                  30 minutes prior to BP measure: use any other
+SB13                   Arm circumference
+SB14                   Blood pressure monitor cuff size
+SB15H                  Time of first BP reading: hour
+SB15M                  Time of first BP reading: minutes
+SB16S                  First SYSTOLIC reading
+SB16D                  First DIASTOLIC reading
+SB17                   Blood pressure ever been checked previously
+SB18                   Told had high BP on two or more occasions by do
+SB19                   Currently taking a prescribed medicine to lower
+SB22H                  Time of second BP reading: hour
+SB22M                  Time of second BP reading: minutes
+SB23S                  Second SYSTOLIC reading
+SB23D                  Second DIASTOLIC reading
+SB26H                  Time of third BP reading: hour
+SB26M                  Time of third BP reading: minutes
+SB27S                  Third SYSTOLIC reading
+SB27D                  Third DIASTOLIC reading
+SB51                   Time since last ate
+SB52                   Time since last drank, something other than plain water
+SB69H                  Time of blood glucose reading: hour
+SB69M                  Time of blood glucose reading: minutes
+SB70                   Glucose level
+S190S                  Wealth index within state
+S190U                  Wealth index - urban
+S191U                  Wealth index factor score (5 decimals) - urban
+S190US                 Wealth index - urban within state
+S190R                  Wealth index - rural
+S191R                  Wealth index factor score (5 decimals) - rural
+S190RS                 Wealth index - rural within state
+SPHASE                 Questionnaire version: education questions
+SV005                  State women’s weight (6 decimals)
+
+
+REC92                  Country specific Birth History variables
+
+IDX92                  Index to Birth History
+S220A                  Pregnancy duration
+S220B                  Ultrasound test
+
+
+REC94                  Country specific Maternity variables
+
+IDX94                  Index to Birth History
+S408                   Number of months pregnant
+S408A                  Pregnancy testing kit used
+S409                   Pregnancy registered
+S410                   Number of months pregnant when registered
+S411                   Registered with:
+S412                   Receive Mother and Child Protection Card after
+S418E                  Abdomen examined
+S419A                  Told about pregnancy complication: vaginal bleeding
+S419B                  Told about pregnancy complication: convulsions
+S419C                  Told about pregnancy complication: prolonged labor
+S419D                  Told about pregnancy complication: severe pain
+S419E                  Told about pregnancy complication: high blood p
+S421                   Child's father present during any antenatal visit
+S431                   During pregnancy: mosquito net usage
+S432                   During pregnancy: had convulsions not from fever
+S433                   During pregnancy: had swelling of the legs, bod
+S434                   During pregnancy: received supplementary nutrition
+S435                   During pregnancy: always able to get supplement
+S436                   During last 3 months of pregnancy: met ANM, LHV
+S437                   Place met ANM, LHV, ASHA, anganwadi worker
+S438A                  Receive advice: institutional delivery
+S438B                  Receive advice: cord care
+S438C                  Receive advice: breastfeeding
+S438D                  Receive advice: keeping the baby warm
+S438E                  Receive advice: family planning
+S439                   During delivery: experience a breech presentation
+S440                   During delivery: experience prolonged labour
+S441                   During delivery: experienced excessive bleeding
+S447                   Transport used by respondent to go to health fa
+S448A                  Person who arranged transport: Doctor
+S448B                  Person who arranged transport: ANM
+S448C                  Person who arranged transport: Health Worker
+S448D                  Person who arranged transport: Anganwadi Worker
+S448E                  Person who arranged transport: ASHA
+S448F                  Person who arranged transport: PRI Member
+S448G                  Person who arranged transport: NGO
+S448H                  Person who arranged transport: CBO
+S448I                  Person who arranged transport: Husband
+S448J                  Person who arranged transport: Mother-In-Law
+S448K                  Person who arranged transport: Mother
+S448L                  Person who arranged transport: Relatives/Friend
+S448M                  Person who arranged transport: Self
+S448X                  Person who arranged transport: other
+S448AA                 Respondent's out-of-pocket delivery cost: transportation
+S448BA                 Respondent's out-of-pocket delivery cost: hospital stay
+S448BB                 Respondent's out-of-pocket delivery cost: tests
+S448BC                 Respondent's out-of-pocket delivery cost: medic
+S448BD                 Respondent's out-of-pocket delivery cost: other
+S449                   Total respondent's out-of-pocket delivery cost
+S451A                  Manner out of pocket cost met: Bank Account/Savings
+S451B                  Manner out of pocket cost met: Borrowed From Friends
+S451C                  Manner out of pocket cost met: Selling Property
+S451D                  Manner out of pocket cost met: Selling Jewelry
+S451E                  Manner out of pocket cost met: Insurance
+S451X                  Manner out of pocket cost met: other
+S452                   Receive financial assistance for delivery care
+S453A                  Source of assistance: Janani Suraksha Yojana
+S453B                  Source of assistance: Other Govt. Schemes
+S453X                  Source of assistance: other
+S454                   Number of days after delivery received JSY
+S455                   Total JSY amount received
+S458                   Timing of decision to have a C-section
+S460                   Time first check occurred after delivery
+S461                   Person who checked respondent's health after de
+S464A                  Disposable delivery kit used
+S464B                  Baby immediately wiped dry and wrapped without
+S464C                  Clean blade used to cut cord
+S467                   Number of check-ups in the first 10 days after
+S469                   Place of first check-up
+S474A                  In first two months after delivery had: massive
+S474B                  In first two months after delivery had: very hi
+S475                   Period returned since last birth
+S476                   Period returned between births
+
+
+REC95                  Country specific Health and Vaccination variables
+
+IDX95                  Index to Birth History
+HEP0                   Received Hepatitis-B 0 (at birth)
+HEP0D                  Hepatitis-B 0 day
+HEP0M                  Hepatitis-B 0 month
+HEP0Y                  Hepatitis-B 0 year
+HEP1                   Received Hepatitis-B 1
+HEP1D                  Hepatitis-B 1 day
+HEP1M                  Hepatitis-B 1 month
+HEP1Y                  Hepatitis-B 1 year
+HEP2                   Received Hepatitis-B 2
+HEP2D                  Hepatitis-B 2 day
+HEP2M                  Hepatitis-B 2 month
+HEP2Y                  Hepatitis-B 2 year
+HEP3                   Received Hepatitis-B 3
+HEP3D                  Hepatitis-B 3 day
+HEP3M                  Hepatitis-B 3 month
+HEP3Y                  Hepatitis-B 3 year
+S515                   Place received most vaccinations
+
+REC97                  Country specific Utilization of ICDS services variables
+
+IDX97                  Index to Birth History
+S555                   Child received benefits from anganwadi/ICDS center
+S556                   Frequency child received food from anganwadi/ICDS
+S557                   Frequency child had health check-up from anganwadi
+S558                   Received immunizations through anganwadi/ICDS center
+S559                   Frequency child went to anganwadi/ICDS centre
+S560                   Frequency child had weight measured by anganwadi
+S561                   After child weighed, mother received counselling
+S562                   During pregnancy, received benefits from anganwadi
+S563A                  Benefits received during pregnancy: Supplementa
+S563B                  Benefits received during pregnancy: Health chec
+S563C                  Benefits received during pregnancy: Health and
+S564                   While breastfeeding, received benefits from ang
+S565A                  Benefits received while breastfeeding: Suppleme
+S565B                  Benefits received while breastfeeding: Health c
+S565C                  Benefits received while breastfeeding: Health a

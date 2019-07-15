@@ -1,0 +1,73 @@
+[V445, format=F00399_. label="Body Mass Index"] B
+[V453, format=F00405_. label="Hemoglobin level (g/dl - 1 decimal)"] B
+[V456, format=F00408_. label="Hemoglobin level adjusted for altitude and smoking (g/dl - 1 decimal)"] B
+[V457, format=F00409_. label="Anemia level"] B
+[V763A, format=F00839_. label="Had any STI in last 12 months"] B
+[V763B, format=F00840_. label="Had genital sore/ulcer in last 12 months"] B
+[V763C, format=F00841_. label="Had genital discharge in last 12 months"] B
+[V774A, format=F00881_. label="HIV transmitted during pregnancy"] B
+[V774B, format=F00882_. label="HIV transmitted during delivery"] B
+[V774C, format=F00883_. label="HIV transmitted by breastfeeding"] B
+[SB18, format=F01511_. label="Told had high BP on two or more occasions by doctor or other health professional"] B
+[SB19, format=F01512_. label="Currently taking a prescribed medicine to lower BP"] B
+[V525, format=F00705_. label="Age at first sex"] B
+[V705, format=F00749_. label="Husband/partner's occupation (grouped)"] B
+[S315, format=F01278_. label="Ever had sexual intercourse"] B
+[S321A, format=F01279_. label="Have used: Female sterilization"] B
+[S321B, format=F01280_. label="Have used: Male sterilization"] B
+[S321C, format=F01281_. label="Have used: IUD/PPIUD"] B
+[S321D, format=F01282_. label="Have used: Injectables"] B
+[S321E, format=F01283_. label="Have used: Pill"] B
+[S321F, format=F01284_. label="Have used: Condom/nirodh"] B
+[S321G, format=F01285_. label="Have used: Female condom"] B
+[S321H, format=F01286_. label="Have used: Emergency contraception"] B
+[S321I, format=F01287_. label="Have used: Diaphragm"] B
+[S321J, format=F01288_. label="Have used: Foam/jelly"] B
+[S321K, format=F01289_. label="Have used: Standard Days Method"] B
+[S321L, format=F01290_. label="Have used: Lactational Amenorrhoea Method (LAM)"] B
+[S321M, format=F01291_. label="Have used: Rhythm Method"] B
+[S321N, format=F01292_. label="Have used: Withdrawal"] B
+[S321X, format=F01293_. label="Have used: other modern method"] B
+[S321Y, format=F01294_. label="Have used: other traditional method"] B
+[S323, format=F01295_. label="Times used emergency contraception in last 12 months"] B
+[S704, format=F01380_. label="Ever had a blood transfusion"] B
+[S707, format=F01381_. label="Currently smoke bidis"] B
+[S708, format=F01382_. label="Bidis smoked in last 24 hours"] B
+[S710C, format=F01383_. label="Type of tobacco used: Hookah"] B
+[S710E, format=F01384_. label="Type of tobacco used: Khaini"] B
+[S716, format=F01389_. label="Drinks alcohol"] B
+[S717, format=F01390_. label="Frequency drinks alcohol"] B
+[S718A, format=F01391_. label="Type of alcohol usually consumed: Tadi madi"] B
+[S718B, format=F01392_. label="Type of alcohol usually consumed: country liquor"] B
+[S718C, format=F01393_. label="Type of alcohol usually consumed: beer"] B
+[S718D, format=F01394_. label="Type of alcohol usually consumed: wine"] B
+[S718E, format=F01395_. label="Type of alcohol usually consumed: hard liquor"] B
+[S718X, format=F01396_. label="Type of alcohol usually consumed: other"] B
+[V459, format=F00411_. label="Have mosquito bed net for sleeping (from household questionnaire)"] B
+[V463A, format=F00415_. label="Smokes cigarettes"] B
+[V463B, format=F00416_. label="Smokes pipe"] B
+[V463C, format=F00417_. label="Uses chewing tobacco"] B
+[V463D, format=F00418_. label="Uses snuff"] B
+[V463E, format=F00419_. label="Smokes cigars"] B
+[V463F, format=F00420_. label="Gutkha/Paan masala with tobacco"] B
+[V463G, format=F00421_. label="Paan with tobacco"] B
+[V463X, format=F00422_. label="Smokes other (see S710C and S710E)"] B
+[V463Z, format=F00423_. label="Does not use tobacco"] B
+[V473B, format=F00473_. label="Result of measurement - HIV"] B
+[V480, format=F00492_. label="Syringe and needle from new, unopened package"] B
+[V481, format=F00493_. label="Covered by health insurance"] B
+[V002, label="Household number"] B
+[V010, label="Respondent's year of birth"] B
+[V004, label="Ultimate area unit"] B
+[V025, format=F00009_. label="Type of place of residence"] B
+[V044, format=F00013_. label="Selected for Domestic Violence module"] B
+[V104, format=F00017_. label="Years lived in place of residence"] B
+[V106, format=F00019_. label="Highest educational level"] B
+[V113, format=F00021_. label="Source of drinking water"] B
+[V116, format=F00023_. label="Type of toilet facility"] B
+[V136, label="Number of household members (listed)"] B
+[V137, label="Number of children 5 and under in household (de jure)"] B
+[V160, format=F00052_. label="Toilet facilities shared with other households"] B
+[V161, format=F00053_. label="Type of cooking fuel"] B
+[V190, format=F00057_. label="Wealth index"] B
+[ML101, format=F00058_. label="Type of mosquito bed net(s) slept under last night"] B

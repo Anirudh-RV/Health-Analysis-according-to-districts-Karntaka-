@@ -1,0 +1,120 @@
+BEHAVIOURAL CHOICES : 42 %
+
+
+.V445., format=F00399] label="Body Mass Index"]
+.V453., format=F00405] label="Hemoglobin level (g/dl - 1 decimal)"]
+.V456., format=F00408] label="Hemoglobin level adjusted for altitude and smoking (g/dl - 1 decimal)"]
+.V457., format=F00409] label="Anemia level"]
+
+Health (-):
+  .H11_1., format=F00544] label="Had diarrhea recently(1)"]
+  .H11_2., format=F00544] label="Had diarrhea recently(2)"]
+  .H11_3., format=F00544] label="Had diarrhea recently(3)"]
+  .H11_4., format=F00544] label="Had diarrhea recently(4)"]
+  .H11B_1., format=F00545] label="Blood in the stools(1)"]
+  .H11B_2., format=F00545] label="Blood in the stools(2)"]
+  .H11B_3., format=F00545] label="Blood in the stools(3)"]
+
+
+Health (-):
+  .H22_1., format=F00592] label="Had fever in last two weeks(1)"]
+  .H22_2., format=F00592] label="Had fever in last two weeks(2)"]
+  .H22_3., format=F00592] label="Had fever in last two weeks(3)"]
+  .H22_4., format=F00592] label="Had fever in last two weeks(4)"]
+  .H31_1., format=F00593] label="Had cough in last two weeks(1)"]
+  .H31_2., format=F00593] label="Had cough in last two weeks(2)"]
+  .H31_3., format=F00593] label="Had cough in last two weeks(3)"]
+  .H31_4., format=F00593] label="Had cough in last two weeks(4)"]
+  .H31B_1.,  rapid breaths(1)"]
+  .H31B_2.,  rapid breaths(2)"]
+  .H31B_3.,  rapid breaths(3)"]
+  .H31C_1., format=F00595] label="Problem in the chest or blocked or running nose(1)"]
+  .H31C_2., format=F00595] label="Problem in the chest or blocked or running nose(2)"]
+  .H31C_3., format=F00595] label="Problem in the chest or blocked or running nose(3)"]
+
+Health (-):
+  .V763A., format=F00839] label="Had any STI in last 12 months"]
+  .V763B., format=F00840] label="Had genital sore/ulcer in last 12 months"]
+  .V763C., format=F00841] label="Had genital discharge in last 12 months"]
+  .V774A., format=F00881] label="HIV transmitted during pregnancy"]
+  .V774B., format=F00882] label="HIV transmitted during delivery"]
+  .V774C., format=F00883] label="HIV transmitted by breastfeeding"]
+
+
+Health (-):
+.SB18., format=F01511] label="Told had high BP on two or more occasions by doctor or other health professional"]
+.SB19., format=F01512] label="Currently taking a prescribed medicine to lower BP"]
+
+
+BehavioralChoices:
+.V525., format=F00705] label="Age at first sex"]
+.V705., format=F00749] label="Husband/partner's occupation (grouped)"]
+
+
+lifestyle :
+  .S315., format=F01278] label="Ever had sexual intercourse"]
+  .S321A., format=F01279] label="Have used: Female sterilization"]
+  .S321B., format=F01280] label="Have used: Male sterilization"]
+  .S321C., format=F01281] label="Have used: IUD/PPIUD"]
+  .S321D., format=F01282] label="Have used: Injectables"]
+  .S321E., format=F01283] label="Have used: Pill"]
+  .S321F., format=F01284] label="Have used: Condom/nirodh"]
+  .S321G., format=F01285] label="Have used: Female condom"]
+  .S321H., format=F01286] label="Have used: Emergency contraception"]
+  .S321I., format=F01287] label="Have used: Diaphragm"]
+  .S321J., format=F01288] label="Have used: Foam/jelly"]
+  .S321K., format=F01289] label="Have used: Standard Days Method"]
+  .S321L., format=F01290] label="Have used: Lactational Amenorrhoea Method (LAM)"]
+  .S321M., format=F01291] label="Have used: Rhythm Method"]
+  .S321N., format=F01292] label="Have used: Withdrawal"]
+  .S321X., format=F01293] label="Have used: other modern method"]
+  .S321Y., format=F01294] label="Have used: other traditional method"]
+  .S323., format=F01295] label="Times used emergency contraception in last 12 months"]
+
+BehavioralChoices:
+  .S704., format=F01380] label="Ever had a blood transfusion"]
+  .S707., format=F01381] label="Currently smoke bidis"]
+  .S708., format=F01382] label="Bidis smoked in last 24 hours"]
+  .S710C., format=F01383] label="Type of tobacco used: Hookah"]
+  .S710E., format=F01384] label="Type of tobacco used: Khaini"]
+  .S716., format=F01389] label="Drinks alcohol"]
+  .S717., format=F01390] label="Frequency drinks alcohol"]
+  .S718A., format=F01391] label="Type of alcohol usually consumed: Tadi madi"]
+  .S718B., format=F01392] label="Type of alcohol usually consumed: country liquor"]
+  .S718C., format=F01393] label="Type of alcohol usually consumed: beer"]
+  .S718D., format=F01394] label="Type of alcohol usually consumed: wine"]
+  .S718E., format=F01395] label="Type of alcohol usually consumed: hard liquor"]
+  .S718X., format=F01396] label="Type of alcohol usually consumed: other"]
+
+lifestyle :
+  .V459., format=F00411] label="Have mosquito bed net for sleeping (from household questionnaire)"]
+  .V463A., format=F00415] label="Smokes cigarettes"]
+  .V463B., format=F00416] label="Smokes pipe"]
+  .V463C., format=F00417] label="Uses chewing tobacco"]
+  .V463D., format=F00418] label="Uses snuff"]
+  .V463E., format=F00419] label="Smokes cigars"]
+  .V463F., format=F00420] label="Gutkha/Paan masala with tobacco"]
+  .V463G., format=F00421] label="Paan with tobacco"]
+  .V463X., format=F00422] label="Smokes other (see S710C and S710E)"]
+  .V463Z., format=F00423] label="Does not use tobacco"]
+  .V473B., format=F00473] label="Result of measurement - HIV"]
+  .V480.,  unopened package"]
+  .V481., format=F00493] label="Covered by health insurance"]
+
+lifestyle :
+  .V002., label="Household number"]
+  .V010., label="Respondent's year of birth"]
+  .V004., label="Ultimate area unit"]
+  .V025., format=F00009] label="Type of place of residence"]
+  .V044., format=F00013] label="Selected for Domestic Violence module"]
+  .V104., format=F00017] label="Years lived in place of residence"]
+  .V106., format=F00019] label="Highest educational level"]
+  .V113., format=F00021] label="Source of drinking water"]
+  .V116., format=F00023] label="Type of toilet facility"]
+  .V136., label="Number of household members (listed)"]
+  .V137., label="Number of children 5 and under in household (de jure)"]
+  .V160., format=F00052] label="Toilet facilities shared with other households"]
+  .V161., format=F00053] label="Type of cooking fuel"]
+  .V190., format=F00057] label="Wealth index"]
+  .ML101., format=F00058] label="Type of mosquito bed net(s) slept under last night"]
+  .V201., label="Total children ever born"]

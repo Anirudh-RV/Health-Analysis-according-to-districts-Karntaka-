@@ -1,0 +1,553 @@
+"""
+Social Circumstances : 16 %
+HealthCare : 10 %
+Genetics : 32 %
+Behavioral Choices : 42 %
+
+Divide the list according these main parameters and use K-means to get clusters.
+"""
+
+Cluster number
+District
+Cluster altitude in meters
+Religion
+
+lifestyle :
+  Household number
+  Respondent's year of birth
+  Ultimate area unit
+  Type of place of residence
+  Selected for Domestic Violence module
+  Years lived in place of residence
+  Highest educational level
+  Source of drinking water
+  Type of toilet facility
+  Number of household members (listed)
+  Number of children 5 and under in household (de jure)
+  Toilet facilities shared with other households
+  Type of cooking fuel
+  Wealth index
+  Type of mosquito bed net(s) slept under last night
+  Total children ever born
+
+Genetics :
+  Year of birth(1)
+  Year of birth(2)
+  Year of birth(3)
+  Year of birth(4)
+  Year of birth(5)
+  Year of birth(6)
+  Year of birth(7)
+  Year of birth(8)
+  Year of birth(9)
+  Year of birth(10)
+  Year of birth(11)
+  Year of birth(12)
+  Year of birth(13)
+  Year of birth(14)
+  Year of birth(15)
+  Year of birth(16)
+  Year of birth(17)
+  Year of birth(18)
+  Year of birth(19)
+  Year of birth(20)
+  Sex of child(1)
+  Sex of child(2)
+  Sex of child(3)
+  Sex of child(4)
+  Sex of child(5)
+  Sex of child(6)
+  Sex of child(7)
+  Sex of child(8)
+  Sex of child(9)
+  Sex of child(10)
+  Sex of child(11)
+  Sex of child(12)
+  Sex of child(13)
+  Sex of child(14)
+  Sex of child(15)
+  Sex of child(16)
+  Sex of child(17)
+  Sex of child(18)
+  Sex of child(19)
+  Sex of child(20)
+  Child is alive(1)
+  Child is alive(2)
+  Child is alive(3)
+  Child is alive(4)
+  Child is alive(5)
+  Child is alive(6)
+  Child is alive(7)
+  Child is alive(8)
+  Child is alive(9)
+  Child is alive(10)
+  Child is alive(11)
+  Child is alive(12)
+  Child is alive(13)
+  Child is alive(14)
+  Child is alive(15)
+  Child is alive(16)
+  Child is alive(17)
+  Child is alive(18)
+  Child is alive(19)
+  Child is alive(20)
+  Age at death(1)
+  Age at death(2)
+  Age at death(3)
+  Age at death(4)
+  Age at death(5)
+  Age at death(6)
+  Age at death(7)
+  Age at death(8)
+  Age at death(9)
+  Age at death(10)
+  Age at death(11)
+  Age at death(12)
+  Age at death(13)
+  Age at death(14)
+  Age at death(15)
+  Age at death(16)
+  Age at death(17)
+  Age at death(18)
+  Age at death(19)
+  Age at death(20)
+  Size of child at birth(1)
+  Size of child at birth(2)
+  Size of child at birth(3)
+  Size of child at birth(4)
+  Size of child at birth(5)
+  Size of child at birth(6)
+
+Heath Care :
+  Contraceptive use and intention
+  Duration of breastfeeding(1)
+  Duration of breastfeeding(2)
+  Duration of breastfeeding(3)
+  Duration of breastfeeding(4)
+  Duration of breastfeeding(5)
+  Duration of breastfeeding(6)
+  Place of delivery(1)
+  Place of delivery(2)
+  Place of delivery(3)
+  Place of delivery(4)
+  Place of delivery(5)
+  Place of delivery(6)
+  Delivery by caesarean section(1)
+  Delivery by caesarean section(2)
+  Delivery by caesarean section(3)
+  Delivery by caesarean section(4)
+  Delivery by caesarean section(5)
+  Delivery by caesarean section(6)
+  Days tablets or syrup taken(1)
+  Days tablets or syrup taken(2)
+  Days tablets or syrup taken(3)
+  Days tablets or syrup taken(4)
+  Days tablets or syrup taken(5)
+  Days tablets or syrup taken(6)
+
+Health :
+  Result of measurement - HIV
+  Duration of amenorrhea(1)
+  Duration of amenorrhea(2)
+  Duration of amenorrhea(3)
+  Duration of amenorrhea(4)
+  Duration of amenorrhea(5)
+  Duration of amenorrhea(6)
+  Body Mass Index
+  Haemoglobin level (g/dl - 1 decimal)
+  Haemoglobin level adjusted for altitude and smoking (g/dl - 1 decimal)
+  Anemia level
+
+lifestyle :
+  Have mosquito bed net for sleeping (from household questionnaire)
+  Smokes cigarettes
+  Smokes pipe
+  Uses chewing tobacco
+  Uses snuff
+  Smokes cigars
+  Gutkha/Paan masala with tobacco
+  Paan with tobacco
+  Smokes other (see S710C and S710E)
+  Does not use tobacco
+  Covered by health insurance
+
+Health Care(+):
+  Syringe and needle from new, unopened package
+  Received BCG(1)
+  Received BCG(2)
+  Received BCG(3)
+  Received BCG(4)
+  Received BCG(5)
+  Received BCG(6)
+  Received DPT 1(1)
+  Received DPT 1(2)
+  Received DPT 1(3)
+  Received DPT 1(4)
+  Received DPT 1(5)
+  Received DPT 1(6)
+  Received POLIO 1(1)
+  Received POLIO 1(2)
+  Received POLIO 1(3)
+  Received POLIO 1(4)
+  Received POLIO 1(5)
+  Received POLIO 1(6)
+  Received DPT 2(1)
+  Received DPT 2(2)
+  Received DPT 2(3)
+  Received DPT 2(4)
+  Received DPT 2(5)
+  Received DPT 2(6)
+  Received POLIO 2(1)
+  Received POLIO 2(2)
+  Received POLIO 2(3)
+  Received POLIO 2(4)
+  Received POLIO 2(5)
+  Received POLIO 2(6)
+  Received DPT 3(1)
+  Received DPT 3(2)
+  Received DPT 3(3)
+  Received DPT 3(4)
+  Received DPT 3(5)
+  Received DPT 3(6)
+  Received POLIO 3(1)
+  Received POLIO 3(2)
+  Received POLIO 3(3)
+  Received POLIO 3(4)
+  Received POLIO 3(5)
+  Received POLIO 3(6)
+  Received MEASLES(1)
+  Received MEASLES(2)
+  Received MEASLES(3)
+  Received MEASLES(4)
+  Received MEASLES(5)
+  Received MEASLES(6)
+  Received POLIO 0(1)
+  Received POLIO 0(2)
+  Received POLIO 0(3)
+  Received POLIO 0(4)
+  Received POLIO 0(5)
+  Received POLIO 0(6)
+  Ever had vaccination(1)
+  Ever had vaccination(2)
+  Ever had vaccination(3)
+  Ever had vaccination(4)
+  Ever had vaccination(5)
+  Ever had vaccination(6)
+
+Health (-):
+  Had diarrhea recently(1)
+  Had diarrhea recently(2)
+  Had diarrhea recently(3)
+  Had diarrhea recently(4)
+  Had diarrhea recently(5)
+  Had diarrhea recently(6)
+  Blood in the stools(1)
+  Blood in the stools(2)
+  Blood in the stools(3)
+  Blood in the stools(4)
+  Blood in the stools(5)
+  Blood in the stools(6)
+
+HealthCare :
+  Given antibiotic pills or syrups(1)
+  Given antibiotic pills or syrups(2)
+  Given antibiotic pills or syrups(3)
+  Given antibiotic pills or syrups(4)
+  Given antibiotic pills or syrups(5)
+  Given antibiotic pills or syrups(6)
+  Given antimotility(1)
+  Given antimotility(2)
+  Given antimotility(3)
+  Given antimotility(4)
+  Given antimotility(5)
+  Given antimotility(6)
+  Given antibiotic injection(1)
+  Given antibiotic injection(2)
+  Given antibiotic injection(3)
+  Given antibiotic injection(4)
+  Given antibiotic injection(5)
+  Given antibiotic injection(6)
+  Given intravenous (IV)(1)
+  Given intravenous (IV)(2)
+  Given intravenous (IV)(3)
+  Given intravenous (IV)(4)
+  Given intravenous (IV)(5)
+  Given intravenous (IV)(6)
+  Given home remedy, herbal medicine(1)
+  Given home remedy, herbal medicine(2)
+  Given home remedy, herbal medicine(3)
+  Given home remedy, herbal medicine(4)
+  Given home remedy, herbal medicine(5)
+  Given home remedy, herbal medicine(6)
+  Given zinc(1)
+  Given zinc(2)
+  Given zinc(3)
+  Given zinc(4)
+  Given zinc(5)
+  Given zinc(6)
+  Given other (not antibiotic, antimotility, zinc)(1)
+  Given other (not antibiotic, antimotility, zinc)(2)
+  Given other (not antibiotic, antimotility, zinc)(3)
+  Given other (not antibiotic, antimotility, zinc)(4)
+  Given other (not antibiotic, antimotility, zinc)(5)
+  Given other (not antibiotic, antimotility, zinc)(6)
+  Given unknown pill or syrup(1)
+  Given unknown pill or syrup(2)
+  Given unknown pill or syrup(3)
+  Given unknown pill or syrup(4)
+  Given unknown pill or syrup(5)
+  Given unknown pill or syrup(6)
+  Given non-antibiotic injection(1)
+  Given non-antibiotic injection(2)
+  Given non-antibiotic injection(3)
+  Given non-antibiotic injection(4)
+  Given non-antibiotic injection(5)
+  Given non-antibiotic injection(6)
+  Given unknown injection(1)
+  Given unknown injection(2)
+  Given unknown injection(3)
+  Given unknown injection(4)
+  Given unknown injection(5)
+  Given unknown injection(6)
+
+Health (-):
+  Had fever in last two weeks(1)
+  Had fever in last two weeks(2)
+  Had fever in last two weeks(3)
+  Had fever in last two weeks(4)
+  Had fever in last two weeks(5)
+  Had fever in last two weeks(6)
+  Had cough in last two weeks(1)
+  Had cough in last two weeks(2)
+  Had cough in last two weeks(3)
+  Had cough in last two weeks(4)
+  Had cough in last two weeks(5)
+  Had cough in last two weeks(6)
+  Short, rapid breaths(1)
+  Short, rapid breaths(2)
+  Short, rapid breaths(3)
+  Short, rapid breaths(4)
+  Short, rapid breaths(5)
+  Short, rapid breaths(6)
+  Problem in the chest or blocked or running nose(1)
+  Problem in the chest or blocked or running nose(2)
+  Problem in the chest or blocked or running nose(3)
+  Problem in the chest or blocked or running nose(4)
+  Problem in the chest or blocked or running nose(5)
+  Problem in the chest or blocked or running nose(6)
+
+HealthCare :
+  Received Vitamin A1 (most recent)(1)
+  Received Vitamin A1 (most recent)(2)
+  Received Vitamin A1 (most recent)(3)
+  Received Vitamin A1 (most recent)(4)
+  Received Vitamin A1 (most recent)(5)
+  Received Vitamin A1 (most recent)(6)
+  Received Vitamin A2 (2nd most recent)(1)
+  Received Vitamin A2 (2nd most recent)(2)
+  Received Vitamin A2 (2nd most recent)(3)
+  Received Vitamin A2 (2nd most recent)(4)
+  Received Vitamin A2 (2nd most recent)(5)
+  Received Vitamin A2 (2nd most recent)(6)
+  Taking iron pills, sprinkles or syrup(1)
+  Taking iron pills, sprinkles or syrup(2)
+  Taking iron pills, sprinkles or syrup(3)
+  Taking iron pills, sprinkles or syrup(4)
+  Taking iron pills, sprinkles or syrup(5)
+  Taking iron pills, sprinkles or syrup(6)
+
+HealthCare (-):
+  Drugs for intestinal parasites in last 6 months(1)
+  Drugs for intestinal parasites in last 6 months(2)
+  Drugs for intestinal parasites in last 6 months(3)
+  Drugs for intestinal parasites in last 6 months(4)
+  Drugs for intestinal parasites in last 6 months(5)
+  Drugs for intestinal parasites in last 6 months(6)
+
+lifestyle/Health :
+  Child's weight in kilograms (1 decimal)(1)
+  Child's weight in kilograms (1 decimal)(2)
+  Child's weight in kilograms (1 decimal)(3)
+  Child's weight in kilograms (1 decimal)(4)
+  Child's weight in kilograms (1 decimal)(5)
+  Child's weight in kilograms (1 decimal)(6)
+  Haemoglobin level (g/dl - 1 decimal)(1)
+  Haemoglobin level (g/dl - 1 decimal)(2)
+  Haemoglobin level (g/dl - 1 decimal)(3)
+  Haemoglobin level (g/dl - 1 decimal)(4)
+  Haemoglobin level (g/dl - 1 decimal)(5)
+  Haemoglobin level (g/dl - 1 decimal)(6)
+  Anemia level(1)
+  Anemia level(2)
+  Anemia level(3)
+  Anemia level(4)
+  Anemia level(5)
+  Anemia level(6)
+
+BehavioralChoices :
+  Age at first sex
+  Husband/partner's occupation (grouped)
+
+Health (-):
+  Had any STI in last 12 months
+  Had genital sore/ulcer in last 12 months
+  Had genital discharge in last 12 months
+  HIV transmitted during pregnancy
+  HIV transmitted during delivery
+  HIV transmitted by breastfeeding
+
+HealthCare :
+  Drugs to avoid HIV transmission to baby during pregnancy
+  Fansidar taken for fever/cough(1)
+  Fansidar taken for fever/cough(2)
+  Fansidar taken for fever/cough(3)
+  Fansidar taken for fever/cough(4)
+  Fansidar taken for fever/cough(5)
+  Fansidar taken for fever/cough(6)
+  Chloroquine taken for fever/cough(1)
+  Chloroquine taken for fever/cough(2)
+  Chloroquine taken for fever/cough(3)
+  Chloroquine taken for fever/cough(4)
+  Chloroquine taken for fever/cough(5)
+  Chloroquine taken for fever/cough(6)
+  Quinine taken for fever/cough(1)
+  Quinine taken for fever/cough(2)
+  Quinine taken for fever/cough(3)
+  Quinine taken for fever/cough(4)
+  Quinine taken for fever/cough(5)
+  Quinine taken for fever/cough(6)
+  Combination with artemisinin taken for fever/cough(1)
+  Combination with artemisinin taken for fever/cough(2)
+  Combination with artemisinin taken for fever/cough(3)
+  Combination with artemisinin taken for fever/cough(4)
+  Combination with artemisinin taken for fever/cough(5)
+  Combination with artemisinin taken for fever/cough(6)
+  Primaquine taken for fever/cough(1)
+  Primaquine taken for fever/cough(2)
+  Primaquine taken for fever/cough(3)
+  Primaquine taken for fever/cough(4)
+  Primaquine taken for fever/cough(5)
+  Primaquine taken for fever/cough(6)
+  Unknown anti-malarial taken for fever/cough(1)
+  Unknown anti-malarial taken for fever/cough(2)
+  Unknown anti-malarial taken for fever/cough(3)
+  Unknown anti-malarial taken for fever/cough(4)
+  Unknown anti-malarial taken for fever/cough(5)
+  Unknown anti-malarial taken for fever/cough(6)
+  Other antimalarial taken for fever/cough(1)
+  Other antimalarial taken for fever/cough(2)
+  Other antimalarial taken for fever/cough(3)
+  Other antimalarial taken for fever/cough(4)
+  Other antimalarial taken for fever/cough(5)
+  Other antimalarial taken for fever/cough(6)
+  Aspirin taken for fever/cough(1)
+  Aspirin taken for fever/cough(2)
+  Aspirin taken for fever/cough(3)
+  Aspirin taken for fever/cough(4)
+  Aspirin taken for fever/cough(5)
+  Aspirin taken for fever/cough(6)
+  Acetaminophen/paracetamol/panadol taken for fever/cough(1)
+  Acetaminophen/paracetamol/panadol taken for fever/cough(2)
+  Acetaminophen/paracetamol/panadol taken for fever/cough(3)
+  Acetaminophen/paracetamol/panadol taken for fever/cough(4)
+  Acetaminophen/paracetamol/panadol taken for fever/cough(5)
+  Acetaminophen/paracetamol/panadol taken for fever/cough(6)
+  Ibuprofen taken for fever/cough(1)
+  Ibuprofen taken for fever/cough(2)
+  Ibuprofen taken for fever/cough(3)
+  Ibuprofen taken for fever/cough(4)
+  Ibuprofen taken for fever/cough(5)
+  Ibuprofen taken for fever/cough(6)
+  antibiotic (via any delivery method) taken for fever/cough(1)
+  antibiotic (via any delivery method) taken for fever/cough(2)
+  antibiotic (via any delivery method) taken for fever/cough(3)
+  antibiotic (via any delivery method) taken for fever/cough(4)
+  antibiotic (via any delivery method) taken for fever/cough(5)
+  antibiotic (via any delivery method) taken for fever/cough(6)
+
+Health(-):
+  Had your uterus removed
+  Years ago hysterectomy performed
+
+lifestyle :
+  Ever had sexual intercourse
+  Have used: Female sterilization
+  Have used: Male sterilization
+  Have used: IUD/PPIUD
+  Have used: Injectables
+  Have used: Pill
+  Have used: Condom/nirodh
+  Have used: Female condom
+  Have used: Emergency contraception
+  Have used: Diaphragm
+  Have used: Foam/jelly
+  Have used: Standard Days Method
+  Have used: Lactational Amenorrhoea Method (LAM)
+  Have used: Rhythm Method
+  Have used: Withdrawal
+  Have used: other modern method
+  Have used: other traditional method
+  Times used emergency contraception in last 12 months
+
+
+BehavioralChoices:
+  Currently smoke bidis
+  Bidis smoked in last 24 hours
+  Type of tobacco used: Hookah
+  Type of tobacco used: Khaini
+  Drinks alcohol
+  Frequency drinks alcohol
+  Type of alcohol usually consumed: Tadi madi
+  Type of alcohol usually consumed: country liquor
+  Type of alcohol usually consumed: beer
+  Type of alcohol usually consumed: wine
+  Type of alcohol usually consumed: hard liquor
+  Type of alcohol usually consumed: other
+
+Health (-):
+  Ever had a blood transfusion
+  Currently has diabetes
+  Has sought treatment for diabetes
+  Currently has asthma
+  Has sought treatment for asthma
+  Currently has thyroid disorder
+  Has sought treatment for thyroid disorder
+  Currently has heart disease
+  Has sought treatment for heart disease
+  Currently has cancer
+
+HealthCare (+):
+  Has sought treatment for cancer
+  Ever had cervix examination
+  Ever had breast examination
+  Ever had oral cavity examination
+
+Health (-):
+  Told had high BP on two or more occasions by doctor or other health professional
+  Currently taking a prescribed medicine to lower BP
+
+HealthCare (+):
+  Received Hepatitis-B 0 (at birth)(1)
+  Received Hepatitis-B 0 (at birth)(2)
+  Received Hepatitis-B 0 (at birth)(3)
+  Received Hepatitis-B 0 (at birth)(4)
+  Received Hepatitis-B 0 (at birth)(5)
+  Received Hepatitis-B 0 (at birth)(6)
+  Received Hepatitis-B 1(1)
+  Received Hepatitis-B 1(2)
+  Received Hepatitis-B 1(3)
+  Received Hepatitis-B 1(4)
+  Received Hepatitis-B 1(5)
+  Received Hepatitis-B 1(6)
+  Received Hepatitis-B 2(1)
+  Received Hepatitis-B 2(2)
+  Received Hepatitis-B 2(3)
+  Received Hepatitis-B 2(4)
+  Received Hepatitis-B 2(5)
+  Received Hepatitis-B 2(6)
+  Received Hepatitis-B 3(1)
+  Received Hepatitis-B 3(2)
+  Received Hepatitis-B 3(3)
+  Received Hepatitis-B 3(4)
+  Received Hepatitis-B 3(5)
+  Received Hepatitis-B 3(6)

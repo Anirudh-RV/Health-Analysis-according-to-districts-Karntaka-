@@ -1,0 +1,241 @@
+MREC91                 Survey specific variables
+
+MV005S                 State men's sample weight (6 decimals)
+SMDISTRI               District
+SMSLUMC                Slum designation by sample frame
+SMSLUMO                Slum designation by observation
+SMMOD                  Household selected for the state module
+SMCONSENT              Consent agreement
+SMLANGQ                Language of questionnaire
+SMLANGRM               Respondent's mother tongue
+SMLANGI                Language of the interview
+SMTRANSL               Translator used
+SM106                  Been away from home six or more months at a tim
+SM115                  Go to cinema hall/theatre to see a movie at lea
+SM118                  Belong to a scheduled caste/tribe/other backwar
+SM122                  Primary activity over the last 12 months
+SM219                  Length of time not living with wife/wives
+SM220                  Married to any woman other than current wife
+SM223M                 Date of getting married (month)
+SM223Y                 Date of getting married (year)
+SM223C                 Date of getting married (cmc)
+SM224                  Age at first marriage
+SM227                  Age at first union
+SM227C                 Age at first union (calculated)
+SM228                  Ever had sexual intercourse
+SM302                  Ever used any method
+SM303A                 Method used by respondent or partner: Female st
+SM303B                 Method used by respondent or partner: Male ster
+SM303C                 Method used by respondent or partner: IUD/PPIUD
+SM303D                 Method used by respondent or partner: Injectabl
+SM303E                 Method used by respondent or partner: Pill
+SM303F                 Method used by respondent or partner: Condom/ni
+SM303G                 Method used by respondent or partner: Female co
+SM303H                 Method used by respondent or partner: Emergency
+SM303I                 Method used by respondent or partner: Diaphragm
+SM303J                 Method used by respondent or partner: Foam/jell
+SM303K                 Method used by respondent or partner: Standard
+SM303L                 Method used by respondent or partner: Lactation
+SM303M                 Method used by respondent or partner: Rhythm
+SM303N                 Method used by respondent or partner: Withdrawa
+SM303X                 Method used by respondent or partner: Other tra
+SM303Y                 Method used by respondent or partner: Other mod
+SM305                  Facility sterilization took place
+SM306M                 Month started using male sterilization
+SM306Y                 Year started using male sterilization
+SM306C                 Started using male sterilization (cmc)
+SM307                  Total paid for sterilization, including any con
+SM308                  Received compensation for sterilization
+SM309                  Amount of compensation recieved for sterilizati
+SM310                  Regrets sterilization
+SM311D                 Seen family planning message on a wall painting
+SM316                  Male condom protects against pregnancy, when us
+SM317                  Knows place to obtain family planning method
+SM318A                 Place acquired contraception method: Public: Go
+SM318B                 Place acquired contraception method: Public: Va
+SM318C                 Place acquired contraception method: Public: Go
+SM318D                 Place acquired contraception method: Public: UH
+SM318E                 Place acquired contraception method: CHC/Rural
+SM318F                 Place acquired contraception method: Public: PH
+SM318G                 Place acquired contraception method: Public: Su
+SM318H                 Place acquired contraception method: Public: Go
+SM318I                 Place acquired contraception method: Public: Ca
+SM318J                 Place acquired contraception method: Public: An
+SM318K                 Place acquired contraception method: Public: AS
+SM318L                 Place acquired contraception method: Public: Ot
+SM318M                 Place acquired contraception method: Other Publ
+SM318N                 Place acquired contraception method: NGO or Tru
+SM318O                 Place acquired contraception method: Private: H
+SM318P                 Place acquired contraception method: Private: D
+SM318Q                 Place acquired contraception method: Private: M
+SM318R                 Place acquired contraception method: Private: V
+SM318S                 Place acquired contraception method: Private: T
+SM318T                 Place acquired contraception method: Private: P
+SM318U                 Place acquired contraception method: Private: D
+SM318V                 Place acquired contraception method: Other Priv
+SM318W                 Place acquired contraception method: Shop
+SM318X                 Place acquired contraception method: Friend/Rel
+SM318Y                 Place acquired contraception method: other
+SM319                  Visited a health facility/camp in last three mo
+SM320                  Type of health facility visited most recently f
+SM321A                 Service went for: Family planning
+SM321B                 Service went for: Immunization
+SM321C                 Service went for: Disease prevention
+SM321D                 Service went for: Medical treatment for self
+SM321E                 Service went for: Treatment for child
+SM321F                 Service went for: Treatment for other person
+SM321G                 Service went for: Growth monitoring of child
+SM321H                 Service went for: Health check-up
+SM321X                 Service went for: other
+SM323                  Line number from household of respondent's youn
+SM326                  Main reason did not have any antenatal check-up
+SM327A                 Told about sign of pregnancy complication: blee
+SM327B                 Told about sign of pregnancy complication: conv
+SM327C                 Told about sign of pregnancy complication: prol
+SM327D                 Told about sign of pregnancy complication: abdo
+SM327E                 Told about sign of pregnancy complication: bloo
+SM328                  Told what to do if mother had pregnancy complic
+SM329A                 Health provider/worker spoke to respondent abou
+SM329B                 Health provider/worker spoke to respondent abou
+SM329C                 Health provider/worker spoke to respondent abou
+SM331A                 Cord care explained to respondent, during pregn
+SM331B                 Need to breastfeed explained to respondent, dur
+SM331C                 Need to keep baby warm after birth explained to
+SM332                  Main reason child's mother did not deliver at h
+SM525                  Person who obtained condom
+SM527                  Total paid last time obtained condoms
+SM529A                 Reason to use condom: Avoid pregnancy
+SM529B                 Reason to use condom: Avoid STD
+SM529C                 Reason to use condom: Some other reason
+SM531                  Used family planning during last intercourse
+SM535K                 Source for condom: Public: ASHA
+SM535L                 Source for condom: Public: Other Community-Base
+SM535N                 Source for condom: NGO or Trust Hospital/Clinic
+SM603                  Ever had a blood transfusion
+SM606                  Currently smoke bidis
+SM607                  Bidis smoked in last 24 hours
+SM609C                 Type of tobacco used: Hookah
+SM609E                 Type of tobacco used: Khaini
+SM611                  Tried to stop smoking or using tobacco in last
+SM612                  Visited a doctor or other health care provider
+SM613                  During visit with health provider, respondent a
+SM614                  Someone smoked in respondent's home or presence
+SM615                  Drinks alcohol
+SM616                  Frequency drinks alcohol
+SM617A                 Type of alcohol usually consumed: Tadi madi
+SM617B                 Type of alcohol usually consumed: country liquo
+SM617C                 Type of alcohol usually consumed: beer
+SM617D                 Type of alcohol usually consumed: wine
+SM617E                 Type of alcohol usually consumed: hard liquor
+SM617X                 Type of alcohol usually consumed: other
+SM622A                 Currently has diabetes
+SM622AB                Has sought treatment for diabetes
+SM622B                 Currently has asthma
+SM622BB                Has sought treatment for asthma
+SM622C                 Currently has thyroid disorder
+SM622CB                Has sought treatment for thyroid disorder
+SM622D                 Currently has heart disease
+SM622DB                Has sought treatment for heart disease
+SM622E                 Currently has cancer
+SM622EB                Has sought treatment for cancer
+SM626A                 Frequency takes milk or curd
+SM626B                 Frequency eats pulses or beans
+SM626C                 Frequency eats dark green leafy vegetable
+SM626D                 Frequency eats fruits
+SM626E                 Frequency eats eggs
+SM626F                 Frequency eats fish
+SM626G                 Frequency eats chicken or meat
+SM626H                 Frequency eats fried food
+SM626I                 Frequency takes aerated drinks
+SM627                  Ever had oral cavity examination
+SM701A                 Who should have the greater say when making maj
+SM701B                 Who should have the greater say when making pur
+SM701C                 Who should have the greater say when deciding v
+SM701D                 Who should have the greater say when deciding w
+SM701E                 Who should have the greater say when deciding h
+SM706F                 Justifies domestic violence: Wife unfaithful
+SM706G                 Justifies domestic violence: Wife disrespect
+SM711                  Wife/wives currently employed for cash
+SM712                  Who decides how money earned by wife will be us
+SM714                  Amount of money earned: respondent vs. wife
+SM716                  Respondent's father ever beat mother
+SM801                  Ever heard of AIDS
+SM802                  Ever heard of HIV
+SM804A                 Source of information about AIDS: Radio
+SM804B                 Source of information about AIDS: Television
+SM804C                 Source of information about AIDS: Cinema
+SM804D                 Source of information about AIDS: Newspapers/mala
+SM804E                 Source of information about AIDS: Posters/hoard
+SM804F                 Source of information about AIDS: Exhibition/me
+SM804G                 Source of information about AIDS: Health worker
+SM804H                 Source of information about AIDS: Adult education
+SM804I                 Source of information about AIDS: Religious lea
+SM804J                 Source of information about AIDS: Political lea
+SM804K                 Source of information about AIDS: School/teacher
+SM804L                 Source of information about AIDS: Community meetings
+SM804M                 Source of information about AIDS: Wife
+SM804N                 Source of information about AIDS: Friends/relatives
+SM804O                 Source of information about AIDS: Work place
+SM804X                 Source of information about AIDS: other
+SM808                  People can get HIV/AIDS from blood products or
+SM809                  People can get HIV/AIDS by injecting drugs
+SM811                  Anything else a person can do to prevent HIV/AIDS
+SM812A                 Ways to avoid HIV/AIDS: Abstain from sex
+SM812B                 Ways to avoid HIV/AIDS: Use condoms
+SM812C                 Ways to avoid HIV/AIDS: Limit sex to one partner
+SM812D                 Ways to avoid HIV/AIDS: Limit number of sexual
+SM812E                 Ways to avoid HIV/AIDS: Avoid sex with sex work
+SM812F                 Ways to avoid HIV/AIDS: Avoid sex with persons
+SM812G                 Ways to avoid HIV/AIDS: Avoid sex with homosexuals
+SM812H                 Ways to avoid HIV/AIDS: Avoid sex with persons
+SM812I                 Ways to avoid HIV/AIDS: Avoid blood transfusion
+SM812J                 Ways to avoid HIV/AIDS: Use blood only from relatives
+SM812K                 Ways to avoid HIV/AIDS: Avoid injections
+SM812L                 Ways to avoid HIV/AIDS: Use only new/sterilized
+SM812M                 Ways to avoid HIV/AIDS: Avoid IV drip
+SM812N                 Ways to avoid HIV/AIDS: Avoid sharing razors, etc.
+SM812O                 Ways to avoid HIV/AIDS: Avoid kissing
+SM812P                 Ways to avoid HIV/AIDS: Avoid mosquito bites
+SM812WX                Ways to avoid HIV/AIDS: other
+SM812Z                 Ways to avoid HIV/AIDS: Don't know
+SM826                  A child with HIV
+SM830                  A male teacher with HIV/AIDS
+SM831                  People with HIV be treated in the same public h
+SM832                  People with HIV be allowed to work in the same
+SMBSEL                 Biomarker Unit selection
+SMB12A                 30 minutes prior to BP measure: eaten
+SMB12B                 30 minutes prior to BP measure: had coffee, tea
+SMB12C                 30 minutes prior to BP measure: smoked any tobacco
+SMB12D                 30 minutes prior to BP measure: use any other t
+SMB13                  Arm circumference
+SMB14                  Blood pressure monitor cuff size
+SMB15H                 Time of first BP reading: hour
+SMB15M                 Time of first BP reading: minutes
+SMB16S                 First SYSTOLIC reading
+SMB16D                 First DIASTOLIC reading
+SMB17                  Blood pressure ever been checked previously
+SMB18                  Told had high BP on two or more occasions by do
+SMB19                  Currently taking a prescribed medicine to lower
+SMB22H                 Time of second BP reading: hour
+SMB22M                 Time of second BP reading: minutes
+SMB23S                 Second SYSTOLIC reading
+SMB23D                 Second DIASTOLIC reading
+SMB26H                 Time of third BP reading: hour
+SMB26M                 Time of third BP reading: minutes
+SMB27S                 Third SYSTOLIC reading
+SMB27D                 Third DIASTOLIC reading
+SMB51                  Time since last ate
+SMB52                  Time since last drank, something other than pla
+SMB69H                 Time of blood glucose reading: hour
+SMB69M                 Time of blood glucose reading: minutes
+SMB70                  Glucose level
+SM213                  Currently in union
+SM190S                 Wealth index within state
+SM190U                 Wealth index - urban
+SM191U                 Wealth index factor score (5 decimals) - urban
+SM190US                Wealth index - urban within state
+SM190R                 Wealth index - rural
+SM191R                 Wealth index factor score (5 decimals) - rural
+SM190RS                Wealth index - rural within state
+SMPHASE                Questionnaire version: education questions
+SM221                  Married to any woman other than past wife (for

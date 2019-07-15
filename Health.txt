@@ -1,0 +1,78 @@
+HEALTH
+
+
+
+Health (-):
+[SB18, format=F01511_. label="Told had high BP on two or more occasions by doctor or other health professional"]
+[SB19, format=F01512_. label="Currently taking a prescribed medicine to lower BP"]
+
+Health (-):
+  [S723A, format=F01397_. label="Currently has diabetes"]
+  [S723AB, format=F01398_. label="Has sought treatment for diabetes"]
+  [S723B, format=F01399_. label="Currently has asthma"]
+  [S723BB, format=F01400_. label="Has sought treatment for asthma"]
+  [S723C, format=F01401_. label="Currently has thyroid disorder"]
+  [S723CB, format=F01402_. label="Has sought treatment for thyroid disorder"]
+  [S723D, format=F01403_. label="Currently has heart disease"]
+  [S723DB, format=F01404_. label="Has sought treatment for heart disease"]
+  [S723E, format=F01405_. label="Currently has cancer"]
+
+Health (-):
+  [V763A, format=F00839_. label="Had any STI in last 12 months"]
+  [V763B, format=F00840_. label="Had genital sore/ulcer in last 12 months"]
+  [V763C, format=F00841_. label="Had genital discharge in last 12 months"]
+  [V774A, format=F00881_. label="HIV transmitted during pregnancy"]
+  [V774B, format=F00882_. label="HIV transmitted during delivery"]
+  [V774C, format=F00883_. label="HIV transmitted by breastfeeding"]
+
+
+Health :
+  [HW2_1, format=F00672_. label="Child's weight in kilograms (1 decimal)(1)"]
+  [HW2_2, format=F00672_. label="Child's weight in kilograms (1 decimal)(2)"]
+  [HW2_3, format=F00672_. label="Child's weight in kilograms (1 decimal)(3)"]
+  [HW2_4, format=F00672_. label="Child's weight in kilograms (1 decimal)(4)"]
+  [HW53_1, format=F00688_. label="Hemoglobin level (g/dl - 1 decimal)(1)"]
+  [HW53_2, format=F00688_. label="Hemoglobin level (g/dl - 1 decimal)(2)"]
+  [HW53_3, format=F00688_. label="Hemoglobin level (g/dl - 1 decimal)(3)"]
+  [HW53_4, format=F00688_. label="Hemoglobin level (g/dl - 1 decimal)(4)"]
+  [HW57_1, format=F00691_. label="Anemia level(1)"]
+  [HW57_2, format=F00691_. label="Anemia level(2)"]
+  [HW57_3, format=F00691_. label="Anemia level(3)"]
+  [HW57_4, format=F00691_. label="Anemia level(4)"]
+
+Health (-):
+  [H22_1, format=F00592_. label="Had fever in last two weeks(1)"]
+  [H22_2, format=F00592_. label="Had fever in last two weeks(2)"]
+  [H22_3, format=F00592_. label="Had fever in last two weeks(3)"]
+  [H22_4, format=F00592_. label="Had fever in last two weeks(4)"]
+  [H31_1, format=F00593_. label="Had cough in last two weeks(1)"]
+  [H31_2, format=F00593_. label="Had cough in last two weeks(2)"]
+  [H31_3, format=F00593_. label="Had cough in last two weeks(3)"]
+  [H31_4, format=F00593_. label="Had cough in last two weeks(4)"]
+  [H31B_1, format=F00594_. label="Short, rapid breaths(1)"]
+  [H31B_2, format=F00594_. label="Short, rapid breaths(2)"]
+  [H31B_3, format=F00594_. label="Short, rapid breaths(3)"]
+  [H31C_1, format=F00595_. label="Problem in the chest or blocked or running nose(1)"]
+  [H31C_2, format=F00595_. label="Problem in the chest or blocked or running nose(2)"]
+  [H31C_3, format=F00595_. label="Problem in the chest or blocked or running nose(3)"]
+
+
+Health (-):
+  [H11_1, format=F00544_. label="Had diarrhea recently(1)"]
+  [H11_2, format=F00544_. label="Had diarrhea recently(2)"]
+  [H11_3, format=F00544_. label="Had diarrhea recently(3)"]
+  [H11_4, format=F00544_. label="Had diarrhea recently(4)"]
+  [H11B_1, format=F00545_. label="Blood in the stools(1)"]
+  [H11B_2, format=F00545_. label="Blood in the stools(2)"]
+  [H11B_3, format=F00545_. label="Blood in the stools(3)"]
+
+
+Health :
+  [V445, format=F00399_. label="Body Mass Index"]
+  [V453, format=F00405_. label="Hemoglobin level (g/dl - 1 decimal)"]
+  [V456, format=F00408_. label="Hemoglobin level adjusted for altitude and smoking (g/dl - 1 decimal)"]
+  [V457, format=F00409_. label="Anemia level"]
+  [M6_1, format=F00235_. label="Duration of amenorrhea(1)"]
+  [M6_2, format=F00235_. label="Duration of amenorrhea(2)"]
+  [M6_3, format=F00235_. label="Duration of amenorrhea(3)"]
+  [M6_4, format=F00235_. label="Duration of amenorrhea(4)"]
