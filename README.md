@@ -1,4 +1,4 @@
-# Health-Analysis-according-to-districts-Karntaka-
+# Health-Analysis-according-to-districts-Karntaka
 A machine learning project using K-means algorithm to find metrics to rank districts according to health.
 
 *** 1/26 CODE - 3dcol.py ***
